@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Welcome to ChingLing Family!</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <style>
         body {
             font-family: Arial, sans-serif;
@@ -13,7 +14,7 @@
             padding: 50px;
         }
         h1 {
-            color: #e74c3c;
+            color: pink;
             font-size: 48px;
         }
         p {
@@ -33,23 +34,41 @@
             margin-top: 30px;
             font-size: 18px;
             color: #fff;
-            background-color: #e74c3c;
+            background-color: pink;
             border: none;
             border-radius: 5px;
             text-decoration: none;
             transition: background-color 0.3s ease;
         }
         .btn:hover {
-            background-color: #c0392b;
+            background-color: rgb(255, 172, 186);
+        }
+        .social-icons {
+            margin-top: 30px;
+        }
+        .social-icons a {
+            color: #e74c3c;
+            font-size: 32px;
+            margin: 0 10px;
+            text-decoration: none;
+            transition: color 0.3s ease;
+        }
+        .social-icons a:hover {
+            color: #c0392b;
         }
     </style>
 </head>
 <body>
     <div class="welcome-message">
         <h1>Welcome to ChingLing Family!</h1>
-        <h2 style="color: red;">KX was here</h2>
         <p>We're thrilled to have you here. Explore, engage, and enjoy your time with us!</p>
-        <a href="aboutus.html" class="btn">Start Exploring, About Us</a>
+        <a href="aboutus.html" class="btn">About Us</a>
+    </div>
+
+    <div class="social-icons">
+        <a href="https://www.youtube.com/" target="_blank">
+            <i class="fab fa-youtube"></i>
+        </a>
     </div>
 </body>
 </html>
